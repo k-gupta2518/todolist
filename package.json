@@ -1,12 +1,12 @@
 {
-  "name": "to-do-list",
+  "name": "todolist",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "main": "index.html",
   "scripts": {
     "dev": "vite",
-    "build": "npm run build",
+    "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
